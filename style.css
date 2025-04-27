@@ -1,0 +1,264 @@
+/* СБРОС */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
+/* ОБЩИЕ СЕКЦИИ */
+section {
+  padding: 80px 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* --- ЦИТАТА --- */
+.quote-section {
+  background-color: #000;
+  color: #fff;
+}
+
+.quote-text {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: #c84c9e;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* --- ПРОЕКТЫ --- */
+.projects {
+  background-color: #000;
+  color: #fff;
+}
+
+.projects-subtitle {
+  font-size: 16px;
+  color: #aaa;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.project-info p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.btn-small {
+  background-color: #c84c9e;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+}
+
+/* --- МИССИЯ --- */
+.mission {
+  position: relative;
+  overflow: hidden;
+}
+
+.mission-text {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.mission-decor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.decor {
+  position: absolute;
+  opacity: 0.3;
+}
+
+.decor-circle {
+  width: 50px;
+  height: 50px;
+  background-color: #29b16f;
+  border-radius: 50%;
+  top: 20%;
+  left: 10%;
+}
+
+.decor-rectangle {
+  width: 80px;
+  height: 30px;
+  background-color: #c84c9e;
+  border-radius: 15px;
+  top: 50%;
+  left: 80%;
+}
+
+.decor-triangle {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 50px solid #3e87c7;
+  top: 70%;
+  left: 20%;
+}
+
+.decor-half-circle {
+  width: 60px;
+  height: 30px;
+  background-color: #f2c94c;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  top: 30%;
+  left: 60%;
+}
+
+/* --- КОМАНДА --- */
+.team {
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.team-member {
+  width: 200px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.team-member h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.team-member p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* --- КОНТАКТЫ --- */
+.contact {
+  background-color: #000;
+  color: #fff;
+}
+
+.contact-subtitle {
+  font-size: 16px;
+  color: #aaa;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-form input[type="email"] {
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  width: 250px;
+  font-size: 14px;
+}
+
+.contact-form button {
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: #c84c9e;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #a83c80;
+}
